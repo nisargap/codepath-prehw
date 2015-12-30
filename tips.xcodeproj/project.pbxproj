@@ -14,6 +14,7 @@
 		21C5726D1C33104F00B54E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C5726B1C33104F00B54E1A /* LaunchScreen.storyboard */; };
 		21C572781C33104F00B54E1A /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C572771C33104F00B54E1A /* tipsTests.swift */; };
 		21C572831C33104F00B54E1A /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C572821C33104F00B54E1A /* tipsUITests.swift */; };
+		21CAA7131C334EF400935285 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CAA7121C334EF400935285 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		21C5727E1C33104F00B54E1A /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C572821C33104F00B54E1A /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		21C572841C33104F00B54E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CAA7121C334EF400935285 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				21C572621C33104F00B54E1A /* AppDelegate.swift */,
 				21C572641C33104F00B54E1A /* ViewController.swift */,
+				21CAA7121C334EF400935285 /* SettingsViewController.swift */,
 				21C572661C33104F00B54E1A /* Main.storyboard */,
 				21C572691C33104F00B54E1A /* Assets.xcassets */,
 				21C5726B1C33104F00B54E1A /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				21C572651C33104F00B54E1A /* ViewController.swift in Sources */,
 				21C572631C33104F00B54E1A /* AppDelegate.swift in Sources */,
+				21CAA7131C334EF400935285 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codepath.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codepath.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +488,7 @@
 				21C572891C33104F00B54E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21C5728A1C33104F00B54E1A /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				21C5728C1C33104F00B54E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21C5728D1C33104F00B54E1A /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				21C5728F1C33104F00B54E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
